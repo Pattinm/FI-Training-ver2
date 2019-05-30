@@ -2,10 +2,10 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5splSUwfQEn":
+      case "5wyoPgeTVVS":
         Script1();
         break;
-      case "6jr4gWr4ktV":
+      case "6ZfM6fnpYgK":
         Script2();
         break;
   }
@@ -27,7 +27,7 @@ var player = GetPlayer();
 var pID = getQueryVariable("ID");
 //window.alert("pID is " + pID);
 player.SetVar("FIFDparticipantIDTwo",pID);
-alert("Welcome back, " + player.GetVar("FIFDparticipantIDTwo") + ".");
+//alert("Welcome back, " + player.GetVar("FIFDparticipantIDTwo") + ".");
 
 }
 
